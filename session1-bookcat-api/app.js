@@ -14,7 +14,7 @@ app.get('/categories', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-  res.send('Hi, I am Dylan. I am learning backend development with Node.js and Express. This is my first Book Category API for Session 1.');
+  res.send("Hey, I'm Dylan. When I'm not in class I'm usually playing football or working on my Roblox games. This is my first time building a server with Node and Express, so I'm still figuring it out as I go.");
 });
 
 app.listen(3000, () => {
